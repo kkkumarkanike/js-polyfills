@@ -1,4 +1,4 @@
-// this function will take index of an array and returns the value of particular index of an array.
+// this function will take index of an array and returns the value of particular index of that array.
 Array.prototype.myAt = function (index) {
   // Edge cases: if index is less than the negative of array length or greater than or equal to array length,
   // will return "undefined"
