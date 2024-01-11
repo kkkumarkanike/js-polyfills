@@ -18,4 +18,5 @@ Array.prototype.myAt = function (index) {
 const inputArray = [1, 2, 3, 4, 5, 6];
 
 console.log(inputArray.myAt(2));
+console.log(inputArray.myAt(-1));
 console.log(inputArray.myAt("2"));
